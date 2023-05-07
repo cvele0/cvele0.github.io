@@ -59,7 +59,7 @@
   background-color: var(--light-blue);
 }
 
-/* ============================PONUDA======================================== */
+/* ============================MAIN======================================== */
 .main {
   background-color: var(--baby-blue);
   padding-top: 40px;
@@ -281,3 +281,71 @@
   padding-top: 40px;
 }
 
+/* ============================ABOUT======================================== */
+
+.about {
+  background-color: var(--baby-blue);
+  color: var(--black);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'FrankRuhlLibre', sans-serif;
+}
+
+.about .title {
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about .about-text {
+  font-size: 31.25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.about .fire {
+  width: 150px;
+  height: 150px;
+}
+
+/* ==================================PONUDA============================= */ 
+.ponuda {
+  background-color: var(--baby-blue);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.ponuda .rectangle {
+  border: 3px solid var(--dark-blue); /* Add border to rectangles */
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: var(--light-blue);
+  font-size: 25px;
+  font-family: 'FrankRuhlLibre', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+
+.ponuda .rectangle .row {
+  margin-bottom: 10px;
+  padding-left: 50px;
+}
+
+.ponuda .rectangle .rectangle-title {
+  font-weight: bold;
+  font-size: 48.43px;
+  text-align: center;
+  padding: 10px;
+}
+
+.ponuda .align-items-center > .col-auto:first-child {
+  margin-right: 20px; /* Adjust the spacing as needed */
+}
+
+.ponuda .rectangle-title-row {
+  display: inline-block;
+}
