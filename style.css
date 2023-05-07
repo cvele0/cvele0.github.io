@@ -1,0 +1,283 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FrankRuhlLibre';
+  src: url('./fonts/FrankRuhlLibre-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Trirong';
+  src: url('./fonts/Trirong-Regular.ttf') format('truetype');
+}
+
+:root {
+  --black: black;
+  --dark-blue: #25282F; 
+  --dark-purple: #3F4155;
+  --baby-blue: #5989B7;
+  --light-blue: #AFE7EC;
+  --white: #FFFFFF;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-custom {
+  background-color: var(--dark-blue);
+}
+
+.navbar-custom .navbar-brand {
+  font-size: 39.06px;
+}
+
+.navbar-custom .nav-link {
+  font-size: 25px;
+}
+
+.navbar-custom .navbar-brand,
+    .navbar-custom .nav-link {
+      color: var(--white); /* Change the font color of the navbar brand and links */
+      font-family: 'Montserrat', sans-serif; /* Change the font family of the navbar brand and links */
+    }
+
+.navbar-custom .nav-link:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+.nav-item {
+  padding-left: 35px;
+}
+
+.navbar-toggler {
+  background-color: var(--light-blue);
+}
+
+/* ============================PONUDA======================================== */
+.main {
+  background-color: var(--baby-blue);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.main .text-center {
+  color: var(--dark-blue);
+  padding-bottom: 35px;
+  font-size: 70px;
+}
+
+.main .rectangle {
+  border: 3px solid var(--dark-blue); /* Add border to rectangles */
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: var(--light-blue);
+  font-size: 20px;
+  font-family: 'FrankRuhlLibre', sans-serif;
+
+  height: 370px;
+  margin: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+
+.main .rectangle .row {
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.main .rectangle .rectangle-title {
+  font-weight: bold;
+  font-size: 31.25px;
+  text-align: center;
+}
+
+.main .price-text {
+  text-align: center;
+  padding: 10px;
+}
+
+.main .align-items-center > .col-auto:first-child {
+  margin-right: 20px; /* Adjust the spacing as needed */
+}
+
+.main .rectangle .rectangle-business-title {
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  /* !!! */
+  padding-left: 20px;
+  font-size: 31.25px;
+}
+
+.main .rectangle-title-row {
+  display: inline-block;
+}
+
+.main .btn-primary {
+  background-color: var(--dark-blue);
+  color: var(--light-blue);
+  border-radius: 20px;
+  margin: 10px;
+}
+
+
+/* ==================================SSL============================= */
+
+.ssl {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  font-family: 'Trirong', sans-serif;
+}
+
+.ssl .my-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 31.25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/* ==================================DOMAIN============================= */
+
+.domain {
+  background-color: var(--baby-blue);
+  color: var(--white);
+  font-family: 'Trirong', sans-serif;
+}
+
+.domain .domain-title {
+  font-size: 39.06px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.domain .numbering {
+  font-size: 31.25px;
+}
+
+.domain .btn-primary {
+  color: var(--white);
+  background-color: var(--dark-blue);
+  font-size: 31.25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+}
+
+/* ==================================BOX============================= */ 
+
+.box {
+  background-color: var(--light-blue);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'FrankRuhlLibre', sans-serif;
+} 
+
+.box .row {
+  font-size: 20px;
+}
+
+.box .row .title {
+  font-size: 25px;
+}
+
+/* ==================================HOSTING============================= */ 
+
+.hosting {
+  background-color: var(--dark-purple);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'FrankRuhlLibre', sans-serif;
+  color: var(--white);
+}
+
+.hosting .row {
+  font-size: 25px;
+}
+
+.hosting .row .title {
+  font-size: 31.25px;
+}
+
+/* ==================================CHOOSE============================= */ 
+
+.choose {
+  background-color: var(--light-blue);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'FrankRuhlLibre', sans-serif;
+  color: var(--black);
+  font-size: 31.25px;
+}
+
+.choose .title {
+  font-size: 61.04px;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 40px;
+}
+
+.choose .image3 {
+  margin-left: 150px;
+}
+
+.choose .row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* ==================================FOOTER============================= */ 
+
+.footer {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-family: 'FrankRuhlLibre', sans-serif;
+}
+
+.footer .title {
+  font-size: 31.25px;
+  padding-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer .email-text {
+  padding-bottom: 15px;
+}
+
+.footer .phone-text {
+  font-size: 20px;
+}
+
+.footer .btn-primary {
+  color: var(--black);
+  background-color: var(--white);
+  margin-left: 50px;
+}
+
+.footer .authorities {
+  font-size: 20px;
+  padding-top: 40px;
+}
+

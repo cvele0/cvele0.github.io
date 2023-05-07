@@ -1,0 +1,185 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FrankRuhlLibre';
+  src: url('./fonts/FrankRuhlLibre-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Trirong';
+  src: url('./fonts/Trirong-Regular.ttf') format('truetype');
+}
+
+:root {
+  --black: black;
+  --dark-blue: #25282F; 
+  --dark-purple: #3F4155;
+  --baby-blue: #5989B7;
+  --light-blue: #AFE7EC;
+  --white: #FFFFFF;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-custom {
+  background-color: var(--dark-blue);
+}
+
+.navbar-custom .navbar-brand {
+  font-size: 39.06px;
+}
+
+.navbar-custom .nav-link {
+  font-size: 25px;
+}
+
+.navbar-custom .navbar-brand,
+    .navbar-custom .nav-link {
+      color: var(--white); /* Change the font color of the navbar brand and links */
+      font-family: 'Montserrat', sans-serif; /* Change the font family of the navbar brand and links */
+    }
+
+.navbar-custom .nav-link:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+.nav-item {
+  padding-left: 35px;
+}
+
+.navbar-toggler {
+  background-color: var(--light-blue);
+}
+
+/* ============================ABOUT======================================== */
+
+.about {
+  background-color: var(--baby-blue);
+  color: var(--black);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'FrankRuhlLibre', sans-serif;
+}
+
+.about .title {
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about .about-text {
+  font-size: 31.25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.about .fire {
+  width: 150px;
+  height: 150px;
+}
+
+/* ==================================SSL============================= */
+
+.ssl {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  font-family: 'Trirong', sans-serif;
+}
+
+.ssl .my-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 31.25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* ==================================PONUDA============================= */ 
+.ponuda {
+  background-color: var(--baby-blue);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.ponuda .rectangle {
+  border: 3px solid var(--dark-blue); /* Add border to rectangles */
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: var(--light-blue);
+  font-size: 25px;
+  font-family: 'FrankRuhlLibre', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+
+.ponuda .rectangle .row {
+  margin-bottom: 10px;
+  padding-left: 50px;
+}
+
+.ponuda .rectangle .rectangle-title {
+  font-weight: bold;
+  font-size: 48.43px;
+  text-align: center;
+  padding: 10px;
+}
+
+.ponuda .align-items-center > .col-auto:first-child {
+  margin-right: 20px; /* Adjust the spacing as needed */
+}
+
+.ponuda .rectangle-title-row {
+  display: inline-block;
+}
+
+/* ==================================FOOTER============================= */ 
+
+.footer {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-family: 'FrankRuhlLibre', sans-serif;
+}
+
+.footer .title {
+  font-size: 31.25px;
+  padding-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer .email-text {
+  padding-bottom: 15px;
+}
+
+.footer .phone-text {
+  font-size: 20px;
+}
+
+.footer .btn-primary {
+  color: var(--black);
+  background-color: var(--white);
+  margin-left: 50px;
+}
+
+.footer .authorities {
+  font-size: 20px;
+  padding-top: 40px;
+}
+
