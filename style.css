@@ -365,6 +365,36 @@
 /* ====================TABLET================================= */
 
 @media (min-width: 768px) and (max-width: 1199px) {
+  .main .rectangle {
+    font-size: 15px;
+  }
+
+  .main .img-fluid {
+    background: transparent;
+    width: 10px;
+    height: 10px;
+  }
+
+  .main .fire {
+    width: 30px;
+    height: 30px;
+  }  
+
+  .main .rectangle .row {
+    padding-left: 0px;
+  }
+
+  .main .rectangle .rectangle-title {
+    font-size: 20px;
+    padding-left: 0px;
+    margin-left: 0;
+  }
+
+  .main .rectangle .rectangle-business-title {
+    padding-left: 0;
+    font-size: 20px;
+  }
+
   .about .fire {
     width: 100px;
     height: 100px;
@@ -375,6 +405,14 @@
     font-size: 30px;
     text-align: center;
     padding: 10px;
+  }
+
+  .choose .image3 {
+    margin-left: 0;
+  }
+
+  .choose .title {
+    font-size: 40px;
   }
 
   .footer {
@@ -416,6 +454,10 @@
     font-size: 20px;
   }
 
+  .domain .world {
+    padding-top: 150px;
+  }
+
   .domain .mark {
     width: 25px;
     height: 25px;
@@ -431,18 +473,23 @@
     padding-top: 100px;
   }
 
-  .choose .title {
-    font-size: 30px;
-    padding-left: 40px;
-  }
-
   .choose .row {
     font-size: 20px;
+  }
+
+  .choose .title {
+    font-size: 40px;
+    padding-left: 20px;
+  }
+
+  .choose .img-fluid {
+    padding-top: 80px;
   }
 
   .choose .image3 {
     width: 200px;
     height: 100px;
+    margin-top: 50px;
     margin-left: 0;
   }
 
