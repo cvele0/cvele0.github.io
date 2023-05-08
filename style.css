@@ -191,6 +191,10 @@
   margin-bottom: 50px;
 }
 
+.domain .mark {
+  background: transparent;
+}
+
 /* ==================================BOX============================= */ 
 
 .box {
