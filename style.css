@@ -30,6 +30,8 @@
 
 .navbar-custom {
   background-color: var(--dark-blue);
+  position: fixed;
+  width: 100%;
 }
 
 .navbar-custom .navbar-brand {
@@ -62,7 +64,7 @@
 /* ============================MAIN======================================== */
 .main {
   background-color: var(--baby-blue);
-  padding-top: 40px;
+  padding-top: 120px;
   padding-bottom: 40px;
 }
 
@@ -132,6 +134,11 @@
   color: var(--light-blue);
   border-radius: 20px;
   margin: 10px;
+}
+
+.main .fire {
+  width: 50px;
+  height: 50px;
 }
 
 
@@ -286,7 +293,7 @@
 .about {
   background-color: var(--baby-blue);
   color: var(--black);
-  padding-top: 30px;
+  padding-top: 120px;
   padding-bottom: 30px;
   font-family: 'FrankRuhlLibre', sans-serif;
 }
@@ -348,4 +355,127 @@
 
 .ponuda .rectangle-title-row {
   display: inline-block;
+}
+
+
+/* ====================TABLET================================= */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .about .fire {
+    width: 100px;
+    height: 100px;
+  }
+
+  .ponuda .rectangle .rectangle-title {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .footer {
+    font-size: 15px;
+  }
+
+  .footer .title {
+    font-size: 20px;
+  }
+
+  .footer .email-text {
+    font-size: 20px;
+  }
+}
+
+/* ====================MOBILE================================= */
+@media (max-width: 767px) {
+  .main .rectangle .rectangle-business-title {
+    padding-left: 0px;
+    font-size: 21px;
+  }
+
+  .main .rectangle .rectangle-title {
+    font-size: 21px;
+  }
+
+  .ssl .sslImage {
+    width: 80px;
+    height: 80px;
+  }
+
+  .domain .domain-title {
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  
+  .domain .numbering {
+    font-size: 20px;
+  }
+
+  .domain .mark {
+    width: 25px;
+    height: 25px;
+    background: transparent;
+  }
+
+  .domain .btn-primary {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .hosting .img-fluid {
+    padding-top: 100px;
+  }
+
+  .choose .title {
+    font-size: 30px;
+    padding-left: 40px;
+  }
+
+  .choose .row {
+    font-size: 20px;
+  }
+
+  .choose .image3 {
+    width: 200px;
+    height: 100px;
+    margin-left: 0;
+  }
+
+  .footer {
+    font-size: 10px;
+  }
+
+  .footer .title {
+    font-size: 10px;
+  }
+
+  .footer .email-text {
+    font-size: 10px;
+  }
+
+  .footer .phone-text {
+    font-size: 10px;
+  }
+
+  .footer .btn-primary {
+    font-size: 10px;
+  }
+
+  .footer .authorities {
+    font-size: 10px;
+  }
+
+  .footer .img-fluid {
+    height: 15px;
+  }
+
+  .about .title {
+    font-size: 40px;
+  }
+
+  .about .fire {
+    width: 100px;
+    height: 100px;
+  }
 }
