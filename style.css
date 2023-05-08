@@ -31,7 +31,7 @@
 .navbar-custom {
   background-color: var(--dark-blue);
   position: fixed;
-  width: 100%;
+  width: 100vw;
 }
 
 .navbar-custom .navbar-brand {
@@ -526,7 +526,9 @@
   }
 
   .about .fire {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
+    padding-left: 0;
+    margin-left: 0;
   }
 }
